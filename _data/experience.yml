@@ -1,0 +1,30 @@
+- layout: left
+  company: 오비고
+  link: https://obigo.com/
+  job_title: 연구원
+  dates: 2020.03 ~ 2023.10
+  quote: >
+    차량용 HTML5 기반 어플리케이션 프레임워크 개발
+  description: | # this will include new lines to allow paragraphs
+    - Chromium 기반 차량용 임베디드 브라우저 개발 및 유지보수
+    - 어플리케이션 프레임워크 개발 및 유지보수
+    - 어플리케이션 프레임워크 SDK 개발 및 유지보수
+    - 2023 상반기 우수사원 수상
+
+- layout: left
+  company: 스프링클라우드
+  link: http://www.tasio.io/
+  job_title: 연구원
+  dates: 20118.01 ~ 2020.03
+  quote: >
+    자율주행 차량 서비스를 위한 플랫폼 개발
+  description: | # this will include new lines to allow paragraphs
+     - 차량내의 여러 센서 연동 및 취득 시스템 개발
+     - 취득한 센서 데이터 전송 시스템 개발
+
+- layout: left
+  company: 다산지앤지
+  job_title: 인턴
+  dates: 2017.07 ~ 2017.08
+  description: |
+     * AIM 데이터 사용량 통계 분석

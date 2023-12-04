@@ -1,0 +1,18 @@
+- layout: left
+  name: 학력
+  description: | # this will include new lines to allow paragraphs
+    * 고려대학교 세종캠퍼스 컴퓨터정보학과 학사 졸업 (2011.03~ 2018.02, 3.75/4.5) 
+    * 환일 고등학교 졸업 (2009.03 ~ 2011.02)
+
+- layout: left
+  name: 수상이력  
+  description: | # this will include new lines to allow paragraphs
+    * 교내 캡스톤 디자인 경진대회 최우수상 수상 (2017.12)
+    * 2017년도 1학기 성적우수 표창장 (2017.07)
+    * 2016년도 1학기 성적우수 총장상 (2016.08)
+    * 2015년도 2학기 성적우수 학장상 (2016.02)
+
+- layout: left
+  name: 자격증
+  description: | # this will include new lines to allow paragraphs
+    * 정보처리기사 (2017.09.07)

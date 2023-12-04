@@ -1,0 +1,90 @@
+- layout: left
+  company: 개인 블로그
+  link: issuh.github.io
+  quote: >
+    개인 기술 블로그
+  description: |
+    * 공부한 내용에 대하여 정리하여 기록하기 위한 블로그
+
+- layout: left
+  company: myStream
+  link: github.com/ISSuh/mystream
+  job_title: Java Spring, JPA, QueryDSL, MySQL, Kafka, golang, RTMP, HLS
+  quote: >
+    실시간 방송 Platform의 Backend
+  description: |
+    - MSA 아키텍처로 각 API 서버 구현
+    - Kafka 이벤트 기반 동기화 구현
+    - 미디어 처리 구현
+      - RTMP 스트림을 MpegTs segment로 Transmuxing 구현
+      - FFmpeg를 통한 미디어 변환 및 인코딩 구현
+      - 스트리밍을 위한 HLS 미디어 서버 구현
+    - 구현 중
+
+- layout: left
+  company: simpledb
+  link: github.com/ISSuh/simpledb
+  job_title: golang
+  quote: >
+    Distribute persistence key/value storage
+  description: |
+    - skiplist 기반 memory indexing engine 구현
+    - LSM-tree 기반 storage engine 구현
+    - raft 알고리즘 기반 분산 환경에서의 데이터 동기화 환경 구현
+    - Object Storage 서비스를 위한 Rest API 서버 구현
+
+- layout: left
+  company: nlink
+  link: github.com/ISSuh/link
+  job_title: C++ 14
+  quote: >
+   범용 micro service framework
+  description: |
+    - plugin 방식의 runtime user module load 및 runing 환경 구현
+    - task 기반의 async 환경 구현
+    - 기본 네트워크 스택 구현
+      - TCP, UDP socket 클라이언트, 서버 구현
+      - HTTP parser 및 routing 구현
+
+- layout: left
+  company: state_machine 
+  link: github.com/ISSuh/state_machine
+  job_title: C++ 11
+  quote: >
+    Cross Platform(Win, Linux)용 State Machine header only library 구현 
+  description: |
+    - standard library만 사용하여 구현
+    - task 기반 concurrency state 구현
+
+- layout: left
+  company: remote_display_viewer
+  link: github.com/ISSuh/remote_display_viewer
+  quote: >
+   linux 환경에서 screen sharing을 위한 screnn capture server
+  job_title: C++ 11, GTK, GoLang
+  description: |
+    - gtk 기반 screen capture module 구현
+      - screen capture image를 mpeg로 압축 구현
+    - screen sharing을 위한 서버 구현
+
+- layout: left
+  company: Image2RTSP 
+  link: github.com/ISSuh/image2rtsp
+  quote: >
+    ROS image 스트림을 위한 멑티 세션 RTSP 서버 노드
+  job_title: C++ 11, ROS, H264, RTSP
+  description: |
+    - libx264 기반 ROS Image를 h.264로 인코딩 구현
+    - Live555 기반 멀티 세션 RTSP 서버 구현
+
+- layout: left
+  company: CudaImageProcessing
+  link: github.com/ISSuh/CudaImageProcessing
+  job_title: C++ 11, ROS, CUDA
+  quote: >
+   CUDA 기반 ROS image 변환 노드
+  description: |
+    - CUDA, NPP, nvJPEG 기반 ROS Image 변환 구현
+      - 이미지 크기 변환
+      - 이미지 Gray Sacle 변환
+      - 이미지 Jpeg 압축

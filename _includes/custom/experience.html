@@ -1,0 +1,7 @@
+<br></br>
+<div class="container experience-container">
+  <h3><b>{{ site.experience_title | default: "Experience" }}</b></h3>
+  {% for project in site.data.experience %}
+    {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
+  {% endfor %}
+</div>
