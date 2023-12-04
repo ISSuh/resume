@@ -1,5 +1,5 @@
 - layout: left
-  company: 개인 블로그
+  name: 개인 블로그
   link: issuh.github.io
   quote: >
     개인 기술 블로그
@@ -7,13 +7,13 @@
     * 공부한 내용에 대하여 정리하여 기록하기 위한 블로그
 
 - layout: left
-  company: myStream
+  name: myStream
   link: github.com/ISSuh/mystream
-  job_title: Java Spring, JPA, QueryDSL, MySQL, Kafka, golang, RTMP, HLS
+  job_title: Java Spring, JPA, QueryDSL, MySQL, Kafka, Golang, RTMP, HLS
   quote: >
     실시간 방송 Platform의 Backend
   description: |
-    - 요구사항에 대하여 DDD 방법론을 토대로 개발 진행
+    - 요구사항에 대하여 DDD 방법론을 응용하여 개발 진행
       - Event Storming, Context Map, Aggregation 도출등 진행과정 문서화
     - MSA 아키텍처로 각 API 서버 구현
     - Kafka 이벤트 기반 동기화 구현
@@ -24,21 +24,21 @@
     - 구현 중
 
 - layout: left
-  company: simpledb
+  name: simpledb
   link: github.com/ISSuh/simpledb
-  job_title: golang
+  job_title: Golang, K/V Storage
   quote: >
     Distribute persistence key/value storage
   description: |
-    - [skiplist 기반 memory indexing engine 구현](https://github.com/ISSuh/skiplist)
-    - [LSM-tree 기반 storage engine 구현](https://github.com/ISSuh/lsm-tree)
-    - [raft 알고리즘 기반 분산 환경에서의 데이터 동기화 환경 구현](https://github.com/ISSuh/raft)
+    - [skiplist 기반의 memory indexing engine 구현](https://github.com/ISSuh/skiplist)
+    - [LSM-tree 기반의 storage engine 구현](https://github.com/ISSuh/lsm-tree)
+    - [raft 알고리즘 기반의 분산 환경상 데이터 동기화 처리 구현](https://github.com/ISSuh/raft)
     - Object Storage 서비스를 위한 Rest API 서버 구현
 
 - layout: left
-  company: nlink
+  name: nlink
   link: github.com/ISSuh/link
-  job_title: C++ 14
+  job_title: C++ 14, HTTP, Framework
   quote: >
    범용 micro service framework
   description: |
@@ -47,9 +47,11 @@
     - 기본 네트워크 스택 구현
       - TCP, UDP socket 클라이언트, 서버 구현
       - HTTP parser 및 routing 구현
+      - HTTP 클라이언트, 서버 구현
+      - RPC 프록시, 서비스 구현
 
 - layout: left
-  company: state_machine 
+  name: state_machine 
   link: github.com/ISSuh/state_machine
   job_title: C++ 11
   quote: >
@@ -59,7 +61,7 @@
     - task 기반 concurrency state 구현
 
 - layout: left
-  company: remote_display_viewer
+  name: remote_display_viewer
   link: github.com/ISSuh/remote_display_viewer
   quote: >
    linux 환경에서 screen sharing을 위한 screnn capture server
@@ -70,7 +72,16 @@
     - screen sharing을 위한 서버 구현
 
 - layout: left
-  company: Image2RTSP 
+  name: SimpleRPC
+  link: github.com/ISSuh/SimpleRPC
+  quote: >
+    header only RPC 프록시, 서비스 library
+  job_title: C++ 11, ASIO
+  description: |
+    - ASIO library를 사용하여 async 통신 기반 RPC 프록시, 서비스 구현
+
+- layout: left
+  name: Image2RTSP 
   link: github.com/ISSuh/image2rtsp
   quote: >
     ROS image 스트림을 위한 멑티 세션 RTSP 서버 노드
@@ -80,7 +91,7 @@
     - Live555 기반 멀티 세션 RTSP 서버 구현
 
 - layout: left
-  company: CudaImageProcessing
+  name: CudaImageProcessing
   link: github.com/ISSuh/CudaImageProcessing
   job_title: C++ 11, ROS, CUDA
   quote: >
