@@ -4,7 +4,7 @@
   job_title: 연구원
   dates: 2020.03 ~ 2023.10
   quote: >
-    차량용 HTML5 기반 어플리케이션 프레임워크 개발
+    차량용 브라우저 및 HTML5 어플리케이션 프레임워크 개발
   description: | # this will include new lines to allow paragraphs
     - Chromium 기반 차량용 임베디드 브라우저 개발 및 유지보수
     - 어플리케이션 프레임워크 개발 및 유지보수
@@ -15,7 +15,7 @@
   company: 스프링클라우드
   link: http://www.tasio.io/
   job_title: 연구원
-  dates: 20118.01 ~ 2020.03
+  dates: 2018.01 ~ 2020.03
   quote: >
     자율주행 차량 서비스를 위한 플랫폼 개발
   description: | # this will include new lines to allow paragraphs
