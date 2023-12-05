@@ -17,7 +17,7 @@
 - layout: left
   name: myStream
   link: github.com/ISSuh/mystream
-  job_title: Java Spring, JPA, QueryDSL, MySQL, Kafka, Golang, RTMP, HLS
+  job_title: Java 17, Spring Boot 3, JPA, MySQL, Kafka, Golang, RTMP, HLS
   quote: >
     실시간 방송 Platform의 Backend
   description: |
@@ -25,10 +25,10 @@
       - Event Storming, Context Map, Aggregation 도출등 진행과정 문서화
     - MSA 아키텍처로 각 API 서버 구현
     - Kafka 이벤트 기반 동기화 구현
-    - 미디어 처리 구현
+    - [미디어 처리 구현](https://github.com/ISSuh/mystream-media_preprocessor)
       - RTMP 스트림을 MpegTs segment로 Transmuxing 구현
-      - FFmpeg를 통한 미디어 변환 및 인코딩 구현
-      - 스트리밍을 위한 HLS 미디어 서버 구현
+      - FFmpeg를 통한 Transmuxing 및 Transcoding 구현
+    - [스트리밍을 위한 HLS 미디어 서버 구현](https://github.com/ISSuh/mystream-media_streaming)
     - 구현 중
 
 - layout: left

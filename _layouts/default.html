@@ -27,6 +27,10 @@
         {%- include custom/personal_projects.html -%}
       {%- endif -%}
 
+      {%- if site.data.skill.size > 0 -%}
+        {%- include custom/skill.html -%}
+      {%- endif -%}
+
       {%- if site.data.education.size > 0 -%}
         {%- include custom/education.html -%}
       {%- endif -%}
