@@ -1,5 +1,13 @@
 - layout: left
-  name: 개인 블로그
+  name: Github
+  link: github.com/ISSuh
+  quote: >
+    개인 깃허브 저장소
+  description: |
+    * 개인 프로젝트, 예제 및 테스트 코드들이 저장된 개인 Github 저장소
+
+- layout: left
+  name: Blog
   link: issuh.github.io
   quote: >
     개인 기술 블로그
@@ -38,7 +46,7 @@
 - layout: left
   name: nlink
   link: github.com/ISSuh/link
-  job_title: C++ 14, HTTP, Framework
+  job_title: C++14, HTTP, Framework
   quote: >
    범용 micro service framework
   description: |
@@ -53,7 +61,7 @@
 - layout: left
   name: state_machine 
   link: github.com/ISSuh/state_machine
-  job_title: C++ 11
+  job_title: C++11
   quote: >
     Cross Platform(Win, Linux)용 State Machine header only library 구현 
   description: |
@@ -65,7 +73,7 @@
   link: github.com/ISSuh/remote_display_viewer
   quote: >
    linux 환경에서 screen sharing을 위한 screnn capture server
-  job_title: C++ 11, GTK, GoLang
+  job_title: C++11, GTK, GoLang
   description: |
     - gtk 기반 screen capture module 구현
       - screen capture image를 mpeg로 압축 구현
@@ -76,7 +84,7 @@
   link: github.com/ISSuh/SimpleRPC
   quote: >
     header only RPC 프록시, 서비스 library
-  job_title: C++ 11, ASIO
+  job_title: C++11, ASIO
   description: |
     - ASIO library를 사용하여 async 통신 기반 RPC 프록시, 서비스 구현
 
@@ -85,7 +93,7 @@
   link: github.com/ISSuh/image2rtsp
   quote: >
     ROS image 스트림을 위한 멑티 세션 RTSP 서버 노드
-  job_title: C++ 11, ROS, H264, RTSP
+  job_title: C++11, ROS, H264, RTSP
   description: |
     - libx264 기반 ROS Image를 h.264로 인코딩 구현
     - Live555 기반 멀티 세션 RTSP 서버 구현
@@ -93,7 +101,7 @@
 - layout: left
   name: CudaImageProcessing
   link: github.com/ISSuh/CudaImageProcessing
-  job_title: C++ 11, ROS, CUDA
+  job_title: C++11, ROS, CUDA
   quote: >
    CUDA 기반 ROS image 변환 노드
   description: |

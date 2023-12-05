@@ -1,7 +1,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, Chromium
+  job_title: C++14, Chromium
   dates: 2023.08 ~ 2023.10
   quote: >
     토요타 프로젝트
@@ -14,7 +14,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, Chromium, PlayReady DRM
+  job_title: C++14, Chromium, PlayReady DRM
   dates: 2022.06 ~ 2022.09
   quote: >
     차량용 브라우저와 PlayReady DRM(SL2000) 연동
@@ -25,7 +25,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, Chromium, ASIO, HLS, CoreTrust DRM
+  job_title: C++14, Chromium, ASIO, HLS, CoreTrust DRM
   dates: 2022.05 ~ 2023.03
   quote: >
     차량용 브라우저와 CoreTrust DRM 연동을 위한 HLS 프록시 서버
@@ -38,7 +38,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, Chromium
+  job_title: C++14, Chromium
   dates: 2021.09 ~ 2023.08
   quote: >
     현대 프로젝트
@@ -61,7 +61,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, Chromium, Widevine DRM
+  job_title: C++14, Chromium, Widevine DRM
   dates: 2021.08 ~ 2022.03
   quote: >
     차량용 브라우저와 Widevine DRM(L3) 연동
@@ -73,7 +73,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, Chromium
+  job_title: C++14, Chromium
   dates: 2021.06 ~ 2022.12
   quote: >
     브라우저 엔진 업그레이드
@@ -85,7 +85,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, Chromium, Gstreamer
+  job_title: C++14, Chromium, Gstreamer
   dates: 2021.02 ~ 2021.09
   quote: >
     차량용 브라우저의 FFmpeg 기반의 미디어 스택을 Gstreamer 기반의 미디어 스택을 재구현
@@ -97,7 +97,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, Chromium
+  job_title: C++14, Chromium
   dates: 2020.09 ~ 2021.03
   quote: >
     토요타 프로젝트
@@ -111,7 +111,7 @@
 
 - layout: left
   link: 오비고
-  job_title: c++ 14, QT5
+  job_title: C++14, QT5
   dates: 2020.03 ~ 2020.12
   quote: >
     HTML5 어플리케이션 프레임워크 SDK
@@ -121,7 +121,7 @@
 
 - layout: left
   link: 스프링클라우드
-  job_title: c++ 11, ROS, Kafa, Python, Flask
+  job_title: C++11, ROS, Kafa, Python, Flask
   dates: 2019.03 ~ 2019.12
   quote: >
     자율주행 셔틀의 운영자 모니터링 시스템
@@ -132,7 +132,7 @@
 
 - layout: left
   link: 스프링클라우드
-  job_title: C++ 11, ROS, Python 3, Kafka, MQTT, WebSocket, RTSP, Docker
+  job_title: C++11, ROS, Python 3, Kafka, MQTT, WebSocket, RTSP, Docker
   dates: 2018.11 ~ 2019.11
   quote: >
     자율주행 차량 운행데이터 관제 연동 단말기
@@ -150,7 +150,7 @@
 
 - layout: left
   link: 스프링클라우드
-  job_title: c++ 11, Gstreamer, RTP, QT5
+  job_title: C++11, Gstreamer, RTP, QT5
   dates: 2018.03 ~ 2018.09
   quote: >
     이동체에서의 Camera 및 위치정보 전송 및 저장 시스템
@@ -162,7 +162,7 @@
 
 - layout: left
   link : 스프링클라우드
-  job_title: c++ 11, ROS, Python, Flask, MySQL
+  job_title: C++11, ROS, Python, Flask, MySQL
   dates: 2018.02 ~ 2019.08
   quote: >
     차량에서의 센서 데이터 획득 시스템
@@ -185,7 +185,7 @@
 
 - layout: left
   link: 대학교
-  job_title: C#, Xamarin, C++ 11, MySQL
+  job_title: C#, Xamarin, C++11, MySQL
   dates: 2017.09 ~ 2017.11
   quote: >
     컴퓨터 잠금 및 관제 시스템
