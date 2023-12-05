@@ -121,7 +121,7 @@
 
 - layout: left
   link: 스프링클라우드
-  job_title: C++11, ROS, Kafa, Python, Flask
+  job_title: C++11, ROS, Kafa, Python3, Flask
   dates: 2019.03 ~ 2019.12
   quote: >
     자율주행 셔틀의 운영자 모니터링 시스템
@@ -132,7 +132,7 @@
 
 - layout: left
   link: 스프링클라우드
-  job_title: C++11, ROS, Python 3, Kafka, MQTT, WebSocket, RTSP, Docker
+  job_title: C++11, ROS, Python3, Kafka, MQTT, WebSocket, RTSP, Docker
   dates: 2018.11 ~ 2019.11
   quote: >
     자율주행 차량 운행데이터 관제 연동 단말기
@@ -162,7 +162,7 @@
 
 - layout: left
   link : 스프링클라우드
-  job_title: C++11, ROS, Python, Flask, MySQL
+  job_title: C++11, ROS, Python3, Flask, MySQL
   dates: 2018.02 ~ 2019.08
   quote: >
     차량에서의 센서 데이터 획득 시스템
