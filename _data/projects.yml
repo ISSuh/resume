@@ -47,16 +47,15 @@
       - 렌더링 화면 출력 및 Touch Input 처리를 위한 브라우저의 window system(Wayland) 연동 구현 및 이슈 처리
       - 미디어 화면 출력을 위한 Transparent Hole 기능 포팅 및 window system 연동
       - 플렛폼의 CCU/DCU 네트워크 환경 연동
-      - 브라우저와 플렛폼 내부 DNS 서버 연동 환경 구축
-      - 내부 네트워크 라우팅용 프록시 어플리케이션 구현
-      - 브라우저의 AppArmor profile 구성
+        - 브라우저와 플렛폼 내부 DNS 서버 연동 환경 구축
+        - 내부 네트워크 라우팅용 프록시 어플리케이션 구현
       - OTT 서비스의 미디어 재생중 Gstreamer 이슈 처리
       - OTT 서비스의 미디어 재생중 Widevine DRM 이슈 처리
     - 웹 어플리케이션 프레임워크
       - CCOS 플렛폼과 연동을 위한 Web Application의 Lifecycle 구조 설계 및 구현
-      - CCOS 플렛폼과 연동을 위한 Window Managing 구조 설계 및 구현
+      - CCOS 플렛폼과 연동을 위한 Window 관리 구조 설계 및 구현
       - CCOS 플렛폼과 연동하여 network whitelist/balcklist 기능 개발
-      - CCOS 플렛폼과 연동하여 미디어 관련 기능 개발
+      - CCOS 플렛폼과 연동하여 볼륨, 재생등과 같은 미디어 관련 기능 개발
       - CCOS 플렛폼의 GUI 어플리케이션과 웹 어플리케이션 프레임워크간 DBus 통신 구현
 
 - layout: left
@@ -132,13 +131,13 @@
 
 - layout: left
   link: 스프링클라우드
-  job_title: C++11, ROS, Python3, Kafka, MQTT, WebSocket, RTSP, Docker
+  job_title: C++11, ROS, Python3, Kafka, MQTT, WebSocket, RTSP, Docker, Gstreamer, FFmpeg
   dates: 2018.11 ~ 2019.11
   quote: >
     자율주행 차량 운행데이터 관제 연동 단말기
   description: |
     - Camera, GNSS, LiDAR, Radar, IMU, CAN등 센서 및 데이터 연동 구현
-      - 각 센서 획득 어플리케이션을 Docker를 도입하여 모듈화
+      - 각 센서 획득 어플리케이션들을 Docker를 도입하여 모듈화
       - 관련 내용 특허 등록
         - 센싱데이터 전송장치 및 방법(등록번호:1021977350000)
         - 자율주행 시스템(등록번호:1022613060000)
@@ -146,7 +145,7 @@
       - JSON 및 Protobuf 기반 데이터 구조 및 전송 규격 설계
       - TCP, MQTT, WebSocket, Kafka 등 관제 시스템 버전에 맞춰 다양한 통신 인터페이스로 전송 구현
       - 멀티 Camera 기반 RTSP 서버 구현
-      - 영상 전송 최적화를 위한 Camera 영상 합성 구현
+        - 멀티 Camera 영상 전송시 네트워크 대역폭 최적화를 위해 Camera 영상을 합성하여 하나의 영상으로 구성하여 전송
 
 - layout: left
   link: 스프링클라우드
@@ -168,6 +167,7 @@
     차량에서의 센서 데이터 획득 시스템
   description: |
     - ROS 기반 Camera, LiDAR, GNSS 센서 및 데이터 연동 구현
+      - Camera 영상의 H264 인코딩 성능 개선을 위해 GPU 인코딩을 도입하여 약 30%의 CPU 사용율 개선
     - 센서 데이터 및 인지 데이터 전송 설계 및 구현
     - 차량 관제를 위한 웹 어플리케이션 구현
       - 데이터 수집 및 저장을 위한 Flask, MySQL 기반 백앤드 구현
