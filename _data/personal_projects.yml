@@ -50,7 +50,7 @@
   quote: >
    범용 micro service framework
   description: |
-    - plugin 방식의 runtime user module load 및 runing 환경 구현
+    - plugin 방식의 runtime user module load 및 running 환경 구현
     - task 기반의 async 환경 구현
     - 기본 네트워크 스택 구현
       - TCP, UDP socket 클라이언트, 서버 구현
