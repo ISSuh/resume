@@ -29,7 +29,6 @@
       - RTMP 스트림을 MpegTs segment로 Transmuxing 구현
       - FFmpeg를 통한 Transmuxing 및 Transcoding 구현
     - [스트리밍을 위한 HLS 미디어 서버 구현](https://github.com/ISSuh/mystream-media_streaming)
-    - 구현 중
 
 - layout: left
   name: simpledb
