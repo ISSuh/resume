@@ -80,7 +80,6 @@
     - 브라우저 미디어 스택 업그레이드
     - 브라우저 샌드박스 기능 업그레이드
     - 브라우저 EME 스택에 맞춰 Widevine DRM 업그레이드
-    - HTML5 어플리케이션용 Javascript Interface 포팅 및 구현
 
 - layout: left
   link: 오비고
