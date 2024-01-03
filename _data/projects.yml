@@ -10,7 +10,6 @@
       - Cnemo Media engine 포팅 및 미디어 스택 재구현
       - 미디어 화면 출력을 위한 Transparent Hole 기능 포팅 및 window system 연동
       - WebView Tag 기능 연동 및 구현
-      - 브라우저의 네트워크 스택중 TLS handshaking 과정 로깅을 위한 인터페이스 추가
 
 - layout: left
   link: 오비고
