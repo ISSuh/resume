@@ -1,4 +1,16 @@
 - layout: left
+  company: 다이렉트클라우드랩
+  link: https://www.directcloudlab.co.kr/
+  job_title: 연구원
+  dates: 2024.02 ~ 
+  quote: >
+    B2B 클라우드 파일 스토리지 서비스 개발
+  description: | # this will include new lines to allow paragraphs
+    - 기존 서비스 백엔드 유지보수 및 리펙토링을 통한 성능 개선
+    - 신규 서비스에 대한 설계 및 구현
+    - 팀내 개발 문화 정착
+
+- layout: left
   company: 오비고
   link: https://obigo.com/
   job_title: 연구원

@@ -6,27 +6,17 @@
 - layout: left
   name: Languages
   description: |
-    - C++11, 14, 17
-    - Python3
-
-- layout: left
-  name: Framework & Library
-  description: |
-    - ROS
-    - ASIO
-    - Gstreamer, FFmpeg
-    - X11, Wayland
-    - Widevine CDM, PlayReady PK, CoreTrust
-    - Protobuf
-    - Flask
+    - C/C++
+    - GoLang
+    - Python
 
 - layout: left
   name: Infrastructure
   description: |
-    - linux
-    - Kafak, MQTT
-    - Docker
-    - MySQL
+    - AWS, Docker
+    - Kafka, MQTT
+    - Redis
+    - MySQL, ElasticSearch
 
 - layout: left
   name: Etc
@@ -34,25 +24,3 @@
     - Git
     - JIRA
     - Jenkins
-
-- layout: top-middle
-  quote: >
-    개인 프로젝트중 사용한 기술
-
-- layout: left
-  name: Languages
-  description: |
-    - Golang 1.20
-    - Java 11, 17
-
-- layout: left
-  name: Framework & Library
-  description: |
-    - Spring Boot 3, JPA, Spring MVC, Spring Data JPA
-    - JPA, QueryDSL
-    - Gin
-
-- layout: left
-  name: Infrastructure
-  description: |
-    - redis

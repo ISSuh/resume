@@ -1,5 +1,14 @@
 
 - layout: left
+  link: 다이렉트클라우드랩
+  job_title: Golang, AWS, MySQL, Redis, ElasticSearch
+  dates: 2024.02 ~
+  quote: >
+    B2B 클라우드 파일 스토리지 서비스 백엔드 개발
+  description: |
+    - 서비스 개발
+
+- layout: left
   link: 오비고
   job_title: C++17, Chromium
   dates: 2023.08 ~ 2023.10

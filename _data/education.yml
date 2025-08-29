@@ -1,7 +1,7 @@
 - layout: left
   name: 학력
   description: | # this will include new lines to allow paragraphs
-    * 고려대학교 세종캠퍼스 컴퓨터정보학과 학사 졸업 (2011.03~ 2018.02, 3.75/4.5) 
+    * 고려대학교 세종캠퍼스 컴퓨터정보학과 학사 졸업 (2011.03~ 2018.02, 3.71/4.5) 
     * 환일 고등학교 졸업 (2009.03 ~ 2011.02)
 
 - layout: left
@@ -15,4 +15,5 @@
 - layout: left
   name: 자격증
   description: | # this will include new lines to allow paragraphs
-    * 정보처리기사 (2017.09.07)
+    * 정보처리기사 (2017.11)
+    * TOEIC 815 (2016.10)

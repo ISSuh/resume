@@ -41,12 +41,12 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  
-  5년의 경력을 가진 소프트웨어 개발자로 주로 여러 임베디드 리눅스 환경에서 클라이언트 사이드의 어플리케이션들을 개발하였습니다.
 
-  항상 더 나은 소프트웨어를 위하여 주로 개인 프로젝트를 통해 업무와 관련된 주제나 관심있는 주제 혹은 다양한 기술에 대하여 직접 구현해보는 것으로 학습하고 있으며 개인 블로그를 운영하여 공부한 내용을 정리하고 있습니다.
+  소프트웨어 개발자로 초기 경력 동안 여러 임베디드 리눅스 환경에서 클라이언트 사이드의 어플리케이션들을 개발하였습니다.
 
-  최근에는 임베디드 소프트웨어 개발자를 벗어나 백앤드 개발자로 새롭게 발돋움하기 위해 꾸준한 노력을 하고 있습니다.
+  최근에는 백엔드 개발자로 도메인을 변경하여 새롭게 도전하고 있으며 다양한 기술 스택을 학습하고 있습니다.
+
+  항상 더 나은 소프트웨어를 위하여 주로 개인 프로젝트를 통해 업무와 관련된 주제나 관심있는 주제 혹은 다양한 기술에 대하여 직접 구현해보는 것으로 학습하고 있습니다.
 
 # Footer
 footer_show_references: true
