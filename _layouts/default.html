@@ -19,20 +19,16 @@
 
       {%- include about.html -%}
 
+      {%- if site.data.skill.size > 0 -%}
+        {%- include custom/skill.html -%}
+      {%- endif -%}
+
       {%- if site.data.experience.size > 0 -%}
         {%- include custom/experience.html -%}
       {%- endif -%}
 
-      {%- if site.data.projects.size > 0 -%}
-        {%- include custom/projects.html -%}
-      {%- endif -%}
-
       {%- if site.data.personal_projects.size > 0 -%}
         {%- include custom/personal_projects.html -%}
-      {%- endif -%}
-
-      {%- if site.data.skill.size > 0 -%}
-        {%- include custom/skill.html -%}
       {%- endif -%}
 
       {%- if site.data.education.size > 0 -%}

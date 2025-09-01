@@ -1,26 +1,10 @@
-- layout: top-middle
-  quote: >
-    업무중 사용한 기술
-  description: |
 
 - layout: left
-  name: Languages
+  name: Skills
   description: |
-    - C/C++
-    - GoLang
-    - Python
-
-- layout: left
-  name: Infrastructure
-  description: |
-    - AWS, Docker
-    - Kafka, MQTT
-    - Redis
-    - MySQL, ElasticSearch
-
-- layout: left
-  name: Etc
-  description: |
-    - Git
-    - JIRA
-    - Jenkins
+    - C/C++ / GoLang / Python
+    - Linux / AWS / Docker
+    - Redis / MySQL / ElasticSearch
+    - ROS / Gstreamer / WayLand
+    - echo / GORM / GRPC
+    - Jenkins / Git / JIRA

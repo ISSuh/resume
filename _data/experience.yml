@@ -1,42 +1,95 @@
 - layout: left
   company: 다이렉트클라우드랩
   link: https://www.directcloudlab.co.kr/
-  job_title: 연구원
+  job_title: 백엔드 팀
   dates: 2024.02 ~ 
+  skills: Golang, AWS, MySQL, Redis, ElasticSearch
   quote: >
-    B2B 클라우드 파일 스토리지 서비스 개발
-  description: | # this will include new lines to allow paragraphs
-    - 기존 서비스 백엔드 유지보수 및 리펙토링을 통한 성능 개선
-    - 신규 서비스에 대한 설계 및 구현
-    - 팀내 개발 문화 정착
+    B2B 클라우드 파일 스토리지 서비스 백엔드 개발
+  description: |
+    - **서비스 개발**
+      - 레거시 API 리팩토링을 통한 응답 속도 약 20% 개선
+      - 레거시 데이터베이스 쿼리 최적화를 통한 처리 성능 약 40% 향상
+      - 레거시 batch 에 대하여 비동기 병렬처리구조로 리펙토링 진행하여 소요시간 약 70% 단축
+      - 신규 서비스에 대한 구조 및 API 설계 및 구현
+      - 대규모 파일 Cold Storage 적용을 위한 서비스 구조 설계 및 구현
+      - 팀내 TDD 문화 정착을 위한 테스트 코드 작성 룰 수립 및 환경 적용
+
+    - **인프라 및 운영**
+      - 시스템의 통계 데이터 수집을 위한 ElasticSearch 인덱스 설계 및 구현
+      - ElasticSearch 비용 절감을 위한 Warm/Cold Storage 적용 방안 수립
 
 - layout: left
   company: 오비고
   link: https://obigo.com/
-  job_title: 연구원
+  job_title: 어플리케이션프레임워크 팀
+  skills: C++14/17, Chromium, MySQL, Gstreamer, Wayland, DRM
   dates: 2020.03 ~ 2023.10
   quote: >
-    차량용 브라우저 및 HTML5 어플리케이션 프레임워크 개발
-  description: | # this will include new lines to allow paragraphs
-    - Chromium 기반 차량용 브라우저 개발 및 유지보수
-    - 어플리케이션 프레임워크 개발 및 유지보수
-    - 어플리케이션 프레임워크 SDK 개발 및 유지보수
-    - 2023 상반기 우수사원 수상
+    차량용 브라우저 및 웹 어플리케이션 프레임워크 개발
+  description: |
+    - **2023 상반기 우수사원 수상**
+    - **차량용 브라우저 개발**
+      - Chromium 기반 차량용 브라우저 엔진 개발 및 업그레이드
+      - 미디어
+        - FFmpeg → Gstreamer 기반 미디어 스택 재구현
+        - Cnemo Media engine 포팅 및 미디어 스택 재구현
+        - 임베디드 플랫폼별 미디어 파이프라인 설계 및 구현
+        - OTT 서비스 지원을 위한 브라우저 EME 스택과 각 DRM 솔루션 연동 구조 설계 및 구현
+          - Widevine DRM(L3) 연동 및 Plugin 구현
+          - PlayReady DRM(SL2000) 연동 및 Plugin 구현
+          - CoreTrust DRM 연동을 위한 C++ ASIO 기반 HLS 프록시 서버 구현
+      - 그래픽
+        - Wayland window system 연동 (렌더링, Touch Input 처리)
+        - Transparent Hole 기능 포팅 (미디어 화면 출력)
+        - 임베디드 플랫폼상 GPU Rasterize 연동 및 Tile 변경 감지 후 재조정을 통한 성능 최적화
+          - GPU 사용으로 인한 20%의 CPU 사용량 개선
+      - 네트워크
+        - 임베디드 플랫폼의 네트워크 환경(내부 proxy 서버, whitelist/blacklist 등) 연동
+
+    - **웹 어플리케이션 프레임워크**
+      - 임베디드 플랫폼 연동을 위한 Web Application Lifecycle 구조 설계 및 구현
+      - 임베디드 플랫폼내 Web Application Window 관리 구조 설계 및 구현
+      - DBus IPC 통신 기반 플랫폼 연동 (볼륨, 재생, Window 관리등)
+      - QT5 기반 HTML5 어플리케이션 프레임워크 SDK 개발
+      - MISRA, CERT C++ secure coding 표준 적용
+
 
 - layout: left
   company: 스프링클라우드
-  link: http://www.tasio.io/
-  job_title: 연구원
+  job_title: 플렛폼개발 팀
+  skills: C++11, ROS, Gstreamer, Python, Flask, FFmpeg, MySQL, Kafka, MQTT, WebSocket, Docker
   dates: 2018.01 ~ 2020.03
   quote: >
-    자율주행 차량 서비스를 위한 플랫폼 개발
-  description: | # this will include new lines to allow paragraphs
-     - 차량내의 여러 센서 연동 및 취득 시스템 개발
-     - 취득한 센서 데이터 전송 시스템 개발
+    자율주행 차량 데이터 수집 및 관제 시스템 개발
+  description: |
+    - **자율주행 차량 운행데이터 관제 연동 단말기**
+      - Camera, GNSS, LiDAR, Radar, IMU, CAN 등 멀티 센서 데이터 연동 구현
+      - Docker 기반 센서 획득 어플리케이션 모듈화
+        - 관련 내용 특허 등록
+          - 센싱데이터 전송장치 및 방법(등록번호:1021977350000)
+          - 자율주행 시스템(등록번호:1022613060000)
+      - TCP, MQTT, WebSocket, Kafka 등 다양한 통신 인터페이스 구현
+        - JSON/Protobuf 기반 데이터 전송 규격 설계
+      - 멀티 Camera RTSP 서버 구현
+        - 영상 합성을 통한 75%의 네트워크 대역폭 절약
+
+    - **자율주행 셔틀 운영자 모니터링 시스템**
+      - Kafka 기반 데이터 전송 구조 설계 및 구현
+      - 네트워크 모니터링 기능 구현
+      - HTTP 기반 MJPEG 스트리밍 서버 구현
+        - GPU 인코딩으로 CPU 사용량 30% 개선
+    
+    - **차량 관제 웹 어플리케이션**
+      - Flask, MySQL 기반 백엔드 구현 (데이터 수집/저장)
+      - React 기반 프론트엔드 구현 (차량 위치, 영상, 인지데이터 표출)
+      - ROS 기반 센서 데이터 연동 및 전송 시스템 구현
 
 - layout: left
   company: 다산지앤지
   job_title: 인턴
+  skills: R, Python
   dates: 2017.07 ~ 2017.08
   description: |
-     * AIM 데이터 사용량 통계 분석
+     - **AIM 데이터 사용량 통계 분석**
+     - **SVM 알고리즘을 이용한 에너지 사용량 예측 모델 구현**

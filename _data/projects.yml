@@ -6,198 +6,65 @@
   quote: >
     B2B 클라우드 파일 스토리지 서비스 백엔드 개발
   description: |
-    - 서비스 개발
+    - 
 
 - layout: left
   link: 오비고
-  job_title: C++17, Chromium
-  dates: 2023.08 ~ 2023.10
+  job_title: C++14/17, Chromium, MySQL, Gstreamer, Wayland, DRM
+  dates: 2020.03 ~ 2023.10
   quote: >
-    토요타 프로젝트
+    차량용 브라우저 및 웹 어플리케이션 프레임워크 개발
   description: |
-    - 차량용 브라우저
-      - Cnemo Media engine 포팅 및 미디어 스택 재구현
-      - 미디어 화면 출력을 위한 Transparent Hole 기능 포팅 및 window system 연동
-      - WebView Tag 기능 연동 및 구현
+    - **차량용 브라우저 개발**
+      - Chromium 기반 차량용 브라우저 엔진 개발 및 업그레이드
+      - 미디어
+        - FFmpeg → Gstreamer 기반 미디어 스택 재구현
+        - Cnemo Media engine 포팅 및 미디어 스택 재구현
+        - 임베디드 플랫폼별 미디어 파이프라인 설계 및 구현
+        - 브라우저 EME 스택과 각 DRM 솔루션 연동 구조 설계
+          - Widevine DRM(L3) 연동 및 Plugin 구현 (OTT 서비스 지원)
+          - PlayReady DRM(SL2000) 연동 및 Plugin 구현
+          - CoreTrust DRM 연동을 위한 C++ ASIO 기반 HLS 프록시 서버 구현 (OTT 서비스 지원)
+      - 그래픽
+        - Wayland window system 연동 (렌더링, Touch Input 처리)
+        - Transparent Hole 기능 포팅 (미디어 화면 출력)
+        - 임베디드 플랫폼상 GPU Rasterize 연동 및 Tile 변경 감지 후 재조정을 통한 성능 최적화
+          - GPU 사용으로 인한 20%의 CPU 사용량 개선
+      - 네트워크
+        - 임베디드 플랫폼의 네트워크 환경(내부 proxy 서버, whitelist/blacklist 등) 연동
 
-- layout: left
-  link: 오비고
-  job_title: C, C++14, Chromium, PlayReady DRM
-  dates: 2022.06 ~ 2022.09
-  quote: >
-    차량용 브라우저와 PlayReady DRM(SL2000) 연동
-  description: |
-    - PlayReady Porting Kit 개발환경 및 브라우저 연동환경 구축
-    - 브라우저의 EME 스택과 PlayReady DRM 연동을 위한 구조 설계
-    - 브라우저용 PlayReady Plugin 구현
-
-- layout: left
-  link: 오비고
-  job_title: C++17, Chromium, ASIO, HLS, CoreTrust DRM
-  dates: 2022.05 ~ 2023.03
-  quote: >
-    차량용 브라우저와 CoreTrust DRM 연동을 위한 HLS 프록시 서버
-  description: |
-    - 기존의 레거시 프로젝트를 재설계 및 리펙토링을 통한 기능 재구현
-    - CoreTrust DRM 연동 구현
-    - C++ ASIO library 기반 HLS 프록시 서버 구현
-    - HLS 프록시 서버와 브라우저간 연동 Javascript Interface 구현
-    - 브라우저와 HLS 프록시 서버간 DBus IPC 통신 구현
-
-- layout: left
-  link: 오비고
-  job_title: C++17, Chromium
-  dates: 2021.09 ~ 2023.08
-  quote: >
-    현대 프로젝트
-  description: |
-    - 차량용 브라우저
-      - 렌더링 화면 출력 및 Touch Input 처리를 위한 브라우저의 window system(Wayland) 연동 구현 및 이슈 처리
-      - 미디어 화면 출력을 위한 Transparent Hole 기능 포팅 및 window system 연동
-      - 플렛폼의 CCU/DCU 네트워크 환경 연동
-        - 브라우저와 플렛폼 내부 DNS 서버 연동 환경 구축
-        - 내부 네트워크 라우팅용 프록시 어플리케이션 구현
-      - OTT 서비스의 미디어 재생중 Gstreamer 이슈 처리
-      - OTT 서비스의 미디어 재생중 Widevine DRM 이슈 처리
-    - 웹 어플리케이션 프레임워크
-      - CCOS 플렛폼과 연동을 위한 Web Application의 Lifecycle 구조 설계 및 구현
-      - CCOS 플렛폼과 연동을 위한 Window 관리 구조 설계 및 구현
-      - CCOS 플렛폼과 연동하여 network whitelist/balcklist 기능 개발
-      - CCOS 플렛폼과 연동하여 볼륨, 재생등과 같은 미디어 관련 기능 개발
-      - CCOS 플렛폼의 GUI 어플리케이션과 웹 어플리케이션 프레임워크간 DBus 통신 구현
-
-- layout: left
-  link: 오비고
-  job_title: C++14, Chromium, Widevine DRM
-  dates: 2021.08 ~ 2022.03
-  quote: >
-    차량용 브라우저와 Widevine DRM(L3) 연동
-  description: |
-    - Widevine CDM 개발환경 및 브라우저 연동환경 구축
-    - 브라우저용 Widvine Plugin 기능 구현
-    - 각 OTT 서비스별 연동 및 기능 구현
-    - OTT 재생중 provisioning 및 decrypt 이슈 처리
-
-- layout: left
-  link: 오비고
-  job_title: C++17, Chromium
-  dates: 2021.06 ~ 2022.12
-  quote: >
-    브라우저 엔진 업그레이드
-  description: |
-    - 브라우저 미디어 스택 업그레이드
-    - 브라우저 샌드박스 기능 업그레이드
-    - 브라우저 EME 스택에 맞춰 Widevine DRM 업그레이드
-
-- layout: left
-  link: 오비고
-  job_title: C++14, Chromium, Gstreamer
-  dates: 2021.02 ~ 2021.09
-  quote: >
-    차량용 브라우저의 FFmpeg 기반의 미디어 스택을 Gstreamer 기반의 미디어 스택을 재구현
-  description: |
-    - 재생을 위한 Gstreamer 파이프라인 구축 및 구현
-    - 쉬운 디버깅을 위한 디버깅용 Gstreamer 파이프라인 구축 및 구현
-    - 플렛폼별 Gstreamer decoder 및 sink 연동 및 구현
-    - 미디어 재생상 이슈 처리
-
-- layout: left
-  link: 오비고
-  job_title: C++14, Chromium
-  dates: 2020.09 ~ 2021.03
-  quote: >
-    토요타 프로젝트
-  description: |
-    - 차량용 브라우저
-      - 타겟 디바이스의 GPU 드라이버 버그로 인한 렌더링 이슈 처리
-      - 렌더링중 CPU 사용량 개선을 위해 자주 렌더링되는 Tile 영역 검출 및 Tile 크기 재조정
-      - 렌더링중 CPU 사용량 개선을 위해 GPU Rasterize 환경 적용
-    - 웹 어플리케이션 프레임워크
-      - MISRA, CERT등 C++ secure coding 에 맞춰 기능 재구현
-
-- layout: left
-  link: 오비고
-  job_title: C++14, QT5
-  dates: 2020.03 ~ 2020.12
-  quote: >
-    HTML5 어플리케이션 프레임워크 SDK
-  description: |
-    - QT5 기반 HTML5 어플리케이션 프레임워크 SDK 유지보수 및 추가 기능 개발
-    - 리펙토링을 통한 구조 개선
+    - **웹 어플리케이션 프레임워크**
+      - 임베디드 플랫폼 연동을 위한 Web Application Lifecycle 구조 설계 및 구현
+      - 임베디드 플랫폼내 Web Application Window 관리 구조 설계 및 구현
+      - DBus IPC 통신 기반 플랫폼 연동 (볼륨, 재생, Window 관리등)
+      - QT5 기반 HTML5 어플리케이션 프레임워크 SDK 개발
+      - MISRA, CERT C++ secure coding 표준 적용
 
 - layout: left
   link: 스프링클라우드
-  job_title: C++11, ROS, Kafa, Python3, Flask
-  dates: 2019.03 ~ 2019.12
+  job_title: C++11, ROS, Gstreamer, Python, Flask, FFmpeg, MySQL, Kafka, MQTT, WebSocket, RTSP, Docker
+  dates: 2018.01 ~ 2020.03
   quote: >
-    자율주행 셔틀의 운영자 모니터링 시스템
+    자율주행 차량 데이터 수집 및 관제 시스템 개발
   description: |
-    - 자율주행 셔틀의 데이터와 관제 연동을 위한 Kafka 기반 데이터 전송 구조 설계 및 구현
-    - 네트워크 모니터링(인터페이스, 대역폭 등) 기능 구현
-    - 차량의 영상 전송을 위한 HTTP 기반 MJPEG 이미지 전송 및 스트리밍 서버 구현
-      - JPEG 압축시 성능 개선을 위해 GPU 인코딩을 도입하여 약 30%의 CPU 사용율 개선
+    - **자율주행 차량 운행데이터 관제 연동 단말기**
+      - Camera, GNSS, LiDAR, Radar, IMU, CAN 등 멀티 센서 데이터 연동 구현
+      - Docker 기반 센서 획득 어플리케이션 모듈화
+        - 관련 내용 특허 등록
+          - 센싱데이터 전송장치 및 방법(등록번호:1021977350000)
+          - 자율주행 시스템(등록번호:1022613060000)
+      - TCP, MQTT, WebSocket, Kafka 등 다양한 통신 인터페이스 구현
+        - JSON/Protobuf 기반 데이터 전송 규격 설계
+      - 멀티 Camera RTSP 서버 구현
+        - 영상 합성을 통한 75%의 네트워크 대역폭 절약
 
-- layout: left
-  link: 스프링클라우드
-  job_title: C++11, ROS, Python3, Kafka, MQTT, WebSocket, RTSP, Docker, Gstreamer, FFmpeg
-  dates: 2018.11 ~ 2019.11
-  quote: >
-    자율주행 차량 운행데이터 관제 연동 단말기
-  description: |
-    - Camera, GNSS, LiDAR, Radar, IMU, CAN등 센서 및 데이터 연동 구현
-      - 각 센서 획득 어플리케이션들을 Docker를 도입하여 모듈화
-      - 관련 내용 특허 등록
-        - 센싱데이터 전송장치 및 방법(등록번호:1021977350000)
-        - 자율주행 시스템(등록번호:1022613060000)
-    - 획득한 센서 데이터 및 차량 데이터 전송 구조 설계 및 구현
-      - JSON 및 Protobuf 기반 데이터 구조 및 전송 규격 설계
-      - TCP, MQTT, WebSocket, Kafka 등 관제 시스템 버전에 맞춰 다양한 통신 인터페이스로 전송 구현
-      - 멀티 Camera 기반 RTSP 서버 구현
-        - 멀티 Camera 영상 전송시 네트워크 대역폭 최적화를 위해 Camera 영상을 합성하여 하나의 영상으로 구성하여 전송
-
-- layout: left
-  link: 스프링클라우드
-  job_title: C++11, Gstreamer, RTP, QT5
-  dates: 2018.03 ~ 2018.09
-  quote: >
-    이동체에서의 Camera 및 위치정보 전송 및 저장 시스템
-  description: |
-    - Camera 및 GNSS 센서 및 데이터 연동 구현
-    - Gstreamer를 통한 Camera 영상 RTP 스트리밍 구현
-    - GNSS 센서 데이터 전송을 위한 전송 규격 설계 및 TCP 클라이언트 구현
-    - QT5 기반 센서 데이터 획득 및 저장 GUI 어플리케이션 구현
-
-- layout: left
-  link : 스프링클라우드
-  job_title: C++11, ROS, Python3, Flask, MySQL
-  dates: 2018.02 ~ 2019.08
-  quote: >
-    차량에서의 센서 데이터 획득 시스템
-  description: |
-    - ROS 기반 Camera, LiDAR, GNSS 센서 및 데이터 연동 구현
-    - 센서 데이터 및 인지 데이터 전송 설계 및 구현
-    - 차량 관제를 위한 웹 어플리케이션 구현
-      - 데이터 수집 및 저장을 위한 Flask, MySQL 기반 백앤드 구현
-      - 데이터 표출(차량 위치, 영상, 인지데이터)을 위한 React 기반 프론트엔드 구현
-
-- layout: left
-  link: 다산지앤지
-  job_title: R, MySQL
-  dates: 2017.07 ~ 2017.08
-  quote: >
-    AMI 데이터 분석
-  description: |
-    - AMI(Advanced Metering Infrastructure) 데이터 시각화 및 통계 분석
-    - SVM 알고리즘을 이용한 에너지 사용량 예측 모델 구현
-
-- layout: left
-  link: 대학교
-  job_title: C#, Xamarin, C++11, MySQL
-  dates: 2017.09 ~ 2017.11
-  quote: >
-    컴퓨터 잠금 및 관제 시스템
-  description: |
-    - WPF를 이용한 GUI 어플리케이션 개발
-    - Hooking을 이용한 키보드 마우스 및 화면 잠금 기능 구현
-    - 시스템 관리 및 관제를 위한 MySQL 데이터 베이스 및 TCP 서버 구현
-    - 사용자 인증을 위한 Xamarin Framework 기반 안드로이드 어플리케이션 구현
+    - **자율주행 셔틀 운영자 모니터링 시스템**
+      - Kafka 기반 데이터 전송 구조 설계 및 구현
+      - 네트워크 모니터링 (인터페이스, 대역폭) 기능 구현
+      - HTTP 기반 MJPEG 스트리밍 서버 구현
+        - GPU 인코딩으로 CPU 사용량 30% 개선
+    
+    - **차량 관제 웹 어플리케이션**
+      - Flask, MySQL 기반 백엔드 구현 (데이터 수집/저장)
+      - React 기반 프론트엔드 구현 (차량 위치, 영상, 인지데이터 표출)
+      - ROS 기반 센서 데이터 연동 및 전송 시스템 구현
