@@ -79,10 +79,11 @@
   quote: >
     Distribute persistence key/value storage
   description: |
-    - [skiplist 기반의 memory indexing engine 구현](https://github.com/ISSuh/skiplist)
-    - [LSM-tree 기반의 storage engine 구현](https://github.com/ISSuh/lsm-tree)
-    - [Bloom filter 구현 및 조회 최적화](https://github.com/ISSuh/bloom)
-    - [Raft 알고리즘 구현](https://github.com/ISSuh/raft)
+    - [skiplist 구현 및 패키지화](https://github.com/ISSuh/skiplist)
+    - [LSM-tree 기반의 storage engine 구현 및 패키지화](https://github.com/ISSuh/lsm-tree)
+    - [Bloom filter 구현 및 패키지화](https://github.com/ISSuh/bloom)
+    - [Raft 알고리즘 구현 및 패키지화](https://github.com/ISSuh/raft)
+    - [Write-Ahead Logging 구현 및 패키지화](https://github.com/ISSuh/wal)
     - Storage 서비스를 위한 API 서버 구현
 
 - layout: left

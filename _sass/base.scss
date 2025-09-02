@@ -205,10 +205,10 @@ body {
     width: 83.33333333%;
   }
   .col-sm-9 {
-    width: 75%;
+    width: 78%;
   }
   .col-sm-8 {
-    width: 66.66666667%;
+    width: 78%;
   }
   .col-sm-7 {
     width: 58.33333333%;
@@ -220,10 +220,10 @@ body {
     width: 41.66666667%;
   }
   .col-sm-4 {
-    width: 33.33333333%;
+    width: 22%;
   }
   .col-sm-3 {
-    width: 25%;
+    width: 22%;
   }
   .col-sm-2 {
     width: 16.66666667%;
@@ -237,5 +237,30 @@ body {
 
   .no-print, .no-print * {
     display: none !important;
+  }
+
+  /* Use block layout for print so Bootstrap float grid applies instead of flex */
+  .layout {
+    display: block !important;
+  }
+
+  /* Print-specific column adjustments: make left "details" column narrower */
+  .layout-left .details.col-print-12 {
+    width: 26% !important;
+  }
+  .layout-left .col-print-12:not(.details) {
+    width: 74% !important;
+  }
+  .layout-left .col-print-12 {
+    float: left !important;
+  }
+  .layout-right .details.col-print-12 {
+    width: 26% !important;
+  }
+  .layout-right .col-print-12:not(.details) {
+    width: 74% !important;
+  }
+  .layout-right .col-print-12 {
+    float: left !important;
   }
 }

@@ -3,7 +3,7 @@
   link: https://www.directcloudlab.co.kr/
   job_title: 백엔드 팀
   dates: 2024.02 ~ 
-  skills: Golang, AWS, MySQL, Redis, ElasticSearch
+  skills: Golang, echo, GORM, AWS, MySQL, Redis, ElasticSearch
   quote: >
     B2B 클라우드 파일 스토리지 서비스 백엔드 개발
   description: |
