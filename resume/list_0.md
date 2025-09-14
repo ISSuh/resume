@@ -67,31 +67,13 @@ skip-list
 WAL
 
 #### LSM-tree 
-- LSM-tree 구현시 도전적이면서 어려웠던점
-  - 
-- Write Amplification
-  - Write Amplification은 실제로 디스크에 쓰여지는 데이터 양이 애플리케이션에서 요청한 쓰기 데이터 양보다 몇 배 더 많아지는 현상을 말합니다.
-  - LSM-tree는 데이터를 여러 레벨(L0, L1, L2...)에 저장하는데, 각 레벨간 병합(compaction) 과정에서 동일한 데이터가 여러 번 쓰여지게 됩니다.
-  - 예를 들어:
-    - 사용자 쓰기: 1KB
-    - 실제 디스크 쓰기 과정:
-    - 1. MemTable → SSTable(L0): 1KB 쓰기
-    - 2. L0 → L1 compaction: 1KB + 기존 데이터 10KB = 11KB 쓰기  
-    - 3. L1 → L2 compaction: 11KB + 기존 데이터 100KB = 111KB 쓰기
-    - Write Amplification = 122KB / 1KB = 122배
-  - 최적화 전략
-    - Compaction 전략 개선
-      - Leveled Compaction → Tiered Compaction 전환
-      - Size-tiered 방식으로 같은 크기 SSTable끼리만 병합
-    - Write Buffer 크기 조정
-      - MemTable 크기 증가 → L0 SSTable 수 감소
-      - 배치 처리로 compaction 빈도 줄이기
-    - Bloom Filter 최적화
-      - False Positive Rate 감소 → 불필요한 읽기/쓰기 방지
+
 
 Key/Value Storage
 
-ObjectStorage
+### ObjectStorage
+
+
 
 RAFT,
 
